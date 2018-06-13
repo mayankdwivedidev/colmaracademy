@@ -11,10 +11,14 @@
 
   body {
     font-family: 'Lato', Roboto, sans-serif;
+    color: #4a4a4a;
+    line-height: 1.4;
   }
 
+  /* Navigation Section  */
+
   .navi {
-    background: white;
+    background: #ffffff;
     display: flex;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -29,23 +33,27 @@
   }
 
   .navi .logo span {
-    font-weight: bold;
     color: #4a4a4a;
+    font-weight: bold;
   }
 
   .navi ul {
-    text-align: right;
     width: 100%;
+    text-align: right;
   }
 
   .navi ul li {
-    display: inline;
     padding-left: 1rem;
+    display: inline;
   }
 
   .navi ul li a {
     text-decoration: none;
     color: #4a4a4a;
+  }
+
+  .navi.mob ul li {
+    padding: 0 1rem;
   }
 
   .navi ul li a:hover {
@@ -56,6 +64,61 @@
     display: none;
   }
 
-  .navi.mob ul li {
-    padding: 0 1rem;
+  /* Banner Section  */
+
+  .banner {
+    background: #D8D8D8;
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .banner .content {
+    margin: 0 2rem;
+  }
+
+  .banner img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .banner .content h1 {
+    line-height: 1.2;
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+  }
+
+  .banner .content p {
+    line-height: 1.2;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+  }
+
+  .column-a {
+    width: 60%;
+  }
+
+  .column-b {
+    width: 40%;
+  }
+
+  button {
+    background-color: #4A4A4A;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    font-weight: 300;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #5DB8D1;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 300ms linear;
   }
