@@ -6,7 +6,6 @@
   html {
     line-height: 1.4;
     font-size: 16px;
-    color: #4a4a4a;
   }
 
   body {
@@ -113,6 +112,7 @@
     border-radius: 3px;
     font-weight: 300;
     width: 100%;
+    outline: none;
   }
 
   button:hover {
@@ -121,4 +121,84 @@
     font-weight: 300;
     cursor: pointer;
     transition: all 300ms linear;
+  }
+
+ /* Information Section  */
+
+  .main-info {
+    background: #f3f5f5;
+    display: flex;
+    align-items: top;
+    padding: 2rem 1.5rem;
+  }
+
+  .main-info .column-a img {
+    width: 100%;
+  }
+
+  .main-info .column-a h2 {
+    line-height: 1.2;
+    padding: 1.5rem 0 1rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .main-info .column-a p{
+    line-height: 1.2;
+    color: #767676;
+    padding-bottom: 1rem;
+  }
+
+  .main-info .column-a span {
+    color: #767676;
+    font-size: 0.8rem;
+  }
+
+  .main-info .column-b .object {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #d8d8d8;
+    padding: 1rem;
+    margin: 0 0 0 1rem;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .main-info .column-b .object:last-child {
+    background: #D8D8D8;
+  }
+
+  .main-info .column-b .object img {
+    width: 35%;
+    height: auto;
+  }
+
+  .main-info .column-b .object img.mobi {
+    display: none;
+  }
+
+  .main-info .column-b .object .content {
+    margin-left: 1rem;
+  }
+
+  .main-info .column-b .object .content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+  }
+
+  .main-info .column-b .object .content p {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.2;
+    color: #767676;
+  }
+
+  .main-info .column-b .object .content a {
+    font-size: 0.9rem;
+    color: #5194e3;
+    text-decoration: none;
+  }
+
+  .main-info .column-b .object .content a:hover {
+    color: #5DB8D1;
   }
