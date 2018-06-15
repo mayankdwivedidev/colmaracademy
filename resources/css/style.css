@@ -106,9 +106,9 @@
     background-color: #4A4A4A;
     color: #ffffff;
     text-align: center;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     font-family: "Lato", Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     border-radius: 3px;
     font-weight: 300;
     width: 100%;
@@ -201,4 +201,66 @@
 
   .main-info .column-b .object .content a:hover {
     color: #5DB8D1;
+  }
+
+  /* Courses Section  */
+
+  .courses {
+    background: #e5e5e5;
+    padding: 2rem 4rem;
+  }
+
+  .courses h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 2rem 0;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .courses div.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .courses article.course {
+    width: 30%;
+    background: white;
+    margin-bottom: 2rem;
+  }
+
+  .courses article.course img {
+    width: 100%;
+  }
+
+  .courses article.course .content {
+    padding: 1rem;
+  }
+
+  .courses article.course .content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: #4A4A4A;
+
+  }
+
+  .courses .content h4 {
+    font-size: 0.8rem;
+    color: #767676;
+    padding-bottom: 0.5rem;
+  }
+
+  .courses .content p {
+    font-size: 0.8rem;
+    color: #767676;
+    line-height: 1.6;
+  }
+
+  .pop:hover {
+  animation: pop 0.5s linear 1;
+  }
+  @keyframes pop {
+  50%  {transform: scale(1.2);}
   }
