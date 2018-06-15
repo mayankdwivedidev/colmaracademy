@@ -345,3 +345,36 @@
      color: #4587d4;
      text-decoration: none;
    }
+
+   /* Footer Section  */
+
+   footer {
+     display: flex;
+     align-items: center;
+     border-top: 1px solid #d8d8d8;
+     font-size: 0.8rem;
+     padding: 1rem 1.5rem;
+   }
+
+   footer .copyright {
+     width: 50%;
+   }
+
+   footer ul {
+     text-align: right;
+     width: 50%;
+   }
+
+   footer li {
+     display: inline;
+     padding-left: 1rem;
+   }
+
+   footer ul li a {
+     text-decoration: none;
+     color: #4a4a4a;
+   }
+
+   footer ul li a:hover {
+     color: #9b9b9b;
+   }
